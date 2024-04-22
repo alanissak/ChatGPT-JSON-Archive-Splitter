@@ -1,0 +1,132 @@
+[
+    {
+        "title": "Chat Title That Appears In ChatGPT Sidebar",
+        "create_time": 1698189666.123456,
+        "update_time": 1698193266.789012,
+        "mapping": {
+            "c7a15f9d-fccb-4e4a-a6af-e32be4821e7a": {
+                "id": "c7a15f9d-fccb-4e4a-a6af-e32be4821e7a",
+                "message": {
+                    "id": "c7a15f9d-fccb-4e4a-a6af-e32be4821e7a",
+                    "author": {
+                        "role": "system",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": null,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            ""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 0.0,
+                    "metadata": {
+                        "is_visually_hidden_from_conversation": true
+                    },
+                    "recipient": "all"
+                },
+                "parent": "fde83914-98a1-4c2c-b6d6-10e42d5d8052",
+                "children": [
+                    "55e97a7e-5a08-42b1-9f0f-8673b7d4db24"
+                ]
+            },
+            "fde83914-98a1-4c2c-b6d6-10e42d5d8052": {
+                "id": "fde83914-98a1-4c2c-b6d6-10e42d5d8052",
+                "message": null,
+                "parent": null,
+                "children": [
+                    "c7a15f9d-fccb-4e4a-a6af-e32be4821e7a"
+                ]
+            },
+            "55e97a7e-5a08-42b1-9f0f-8673b7d4db24": {
+                "id": "55e97a7e-5a08-42b1-9f0f-8673b7d4db24",
+                "message": {
+                    "id": "55e97a7e-5a08-42b1-9f0f-8673b7d4db24",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1698193266.789012,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Here is my first question I ask ChatGPT"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "request_id": "d28b9e2d8831f6a4-NYC",
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "c7a15f9d-fccb-4e4a-a6af-e32be4821e7a",
+                "children": [
+                    "96e863a1-8462-463c-b507-5c1fd2386a26"
+                ]
+            },
+            "96e863a1-8462-463c-b507-5c1fd2386a26": {
+                "id": "96e863a1-8462-463c-b507-5c1fd2386a26",
+                "message": {
+                    "id": "96e863a1-8462-463c-b507-5c1fd2386a26",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1698193266.789012,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "This is ChatGPT's First Response"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                111111
+                            ]
+                        },
+                        "citations": [],
+                        "gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "default_model_slug": "gpt-4",
+                        "pad": "BBBBBBBBBBBBBBBBB",
+                        "parent_id": "55e97a7e-5a08-42b1-9f0f-8673b7d4db24",
+                        "request_id": "d28b9e2d8831f6a4-NYC",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "55e97a7e-5a08-42b1-9f0f-8673b7d4db24",
+                "children": []
+            }
+        },
+        "moderation_results": [],
+        "current_node": "a9c6e7f1-8eaf-4f7e-a871-9c751751c4a1",
+        "plugin_ids": null,
+        "conversation_id": "36efc0d8-1503-4b7c-afbb-5b634b9d134c",
+        "conversation_template_id": null,
+        "gizmo_id": null,
+        "is_archived": false,
+        "safe_urls": [],
+        "default_model_slug": "gpt-4",
+        "id": "36efc0d8-1503-4b7c-afbb-5b634b9d134c"
+    },
+]
