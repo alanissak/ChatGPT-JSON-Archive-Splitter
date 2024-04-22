@@ -1,4 +1,3 @@
-[
     {
         "title": "Chat Title That Appears In ChatGPT Sidebar",
         "create_time": 1698189666.123456,
@@ -129,4 +128,3 @@
         "default_model_slug": "gpt-4",
         "id": "36efc0d8-1503-4b7c-afbb-5b634b9d134c"
     },
-]
