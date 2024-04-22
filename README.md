@@ -1,4 +1,4 @@
-# ChatGPT-JSON-Archive-Splitter
+# ChatGPT JSON Archive Splitter
 
 This Python script will take in your single, large, one-line JSON ChatGPT conversation archive file and split each conversation into its own JSON file. Each split JSON file will be sent to the `/outputs` folder and named after the chat's `conversation_id` variable.
 
